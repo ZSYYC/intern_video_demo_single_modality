@@ -115,7 +115,7 @@ def get_args():
     parser.add_argument('--train_interpolation', type=str, default='bicubic',
                         help='Training interpolation (random, bilinear, bicubic default: "bicubic")')
 
-    # Evaluation parameters
+    # Evaluation parameters  这里要根据自己的数据集进行修改
     parser.add_argument('--crop_pct', type=float, default=None)
     parser.add_argument('--short_side_size', type=int, default=224)
     parser.add_argument('--test_num_segment', type=int, default=5)
